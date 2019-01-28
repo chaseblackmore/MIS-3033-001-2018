@@ -17,6 +17,11 @@ namespace review_method
             Console.ReadKey();
             double val1 = 10.5;
             double val2 = 1.5;
+            string s = "Hello world! :)";
+            for (int i = s.Length-1; i>=0; i--)
+            {
+                Console.Write(s[i]);
+            }
             subtraction(val1, val2);
         }
 
